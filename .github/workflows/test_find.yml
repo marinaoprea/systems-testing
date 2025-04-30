@@ -17,4 +17,4 @@ jobs:
         shell: bash
         run: |
           cd laboratories/cicd-documentation
-          pytest -v test_find.py
+          python3 -m pytest test_find.py
